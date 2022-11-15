@@ -1,0 +1,29 @@
+body {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#board {
+    background-image: url("https://webgradients.com/public/webgradients_png/043%20New%20York.png");
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 3px solid black;
+    width: 600px;
+    height: 600px;
+}
+
+.cell {
+    font-size: 60px;
+    height: 75px;
+    width: 75px;
+    display: grid;
+
+}
+
+.black {
+    background-color: lightslategray;
+}
